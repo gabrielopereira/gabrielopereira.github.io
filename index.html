@@ -7,6 +7,17 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Gabriel Pereira</title>
 
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-100140590-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
     <!-- Bootstrap -->
     <link href="css/bootstraptheme.css" rel="stylesheet">
     <style>
@@ -25,9 +36,18 @@
             bottom: 0;
             width: 100%;
             /* Set the fixed height of the footer here */
-            height: 40px;
+            height: 50px;
             background-color: #f5f5f5;
+            padding: 10px 0;
         }
+
+        .footer a {
+            font-size: 20px;
+            padding: 10px;
+
+            transition: all .5s ease;
+        }
+
 
         p {
             font-size: 16px;
@@ -46,7 +66,9 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
-    <script src="js/jquery.backstretch.min.js"></script>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
@@ -67,7 +89,8 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#" rel="bio">Bio & CV</a></li>
                 <li><a href="#" rel="publications">Publications</a></li>
-                <li><a href="#" rel="projects">Projects</a></li>
+                <li><a href="#" rel="projects">Selected Projects</a></li>
+                <li><a href="https://smalldatabigdata.wordpress.com/">Blog</a></li>
             </ul>
 
         </div>
@@ -108,7 +131,10 @@
                     I'm <a href="http://annettemarkham.com"> Prof. Annette Markham's </a> Research Assistant and
             participate in projects such as the <a href="http://www.museumofrandommemory.com/">Museum of Random Memory</a>, one of a
             series of experiments by the <a href="http://futuremaking.space">Future Making Consortium</a>  and the <a href="https://www.facebook.com/DLRCommons/"> Digital Living Research Commons </a> to "identify and foster ongoing and new creative methods of regaining control of the
-            ‘big data’ we regularly produce in our everyday lives". You can also check my other <a href="#" rel="projects">projects</a>.
+            ‘big data’ we regularly produce in our everyday lives", and the <a href="http://futuremaking.space/project/all-the-feels/"> All The Feels Research Group</a>.
+
+
+                    You can also check my other <a href="#" rel="projects">projects</a> and follow my <a href="https://smalldatabigdata.wordpress.com/">blog</a> .
             </p>
         </div>
         <div class="row">
@@ -236,8 +262,9 @@
 
 
 <footer class="footer">
-    <div class="container">
-        <h6 class="text-muted text-right" style="padding-top: 10px">gabrielopereira@gmail.com</h6>
+    <div class="container text-right">
+        <a href="https://twitter.com/gabrielopereira"><i class="fa fa-twitter"></i></a>
+        <a href="mailto:gabrielopereira@gmail.com"><i class="fa fa-envelope-o"></i></a>
     </div>
 </footer>
 
